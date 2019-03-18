@@ -1,4 +1,4 @@
-# Example
+# Usage
 
 ```shell
 $ npm install sensitive-words --save
