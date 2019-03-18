@@ -1,4 +1,4 @@
-import sensitive from '.';
+import { sensitive } from '.';
 
 test("test sensitive against single word", () => {
   const expected = 'my name is ***, nice to meet you :)';
