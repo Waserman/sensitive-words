@@ -7,7 +7,8 @@
     "build": "babel src -d build",
     "dev": "watch 'npm run build' src",
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "prepublish": "npm run build"
   },
   "babel": {
     "presets": [
