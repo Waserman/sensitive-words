@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src -d build",
     "dev": "watch 'npm run build' src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest -- --watch"
   },
   "babel": {
     "presets": [
@@ -31,7 +32,8 @@
   "homepage": "https://github.com/Waserman/sensitive-words#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-latest": "^6.24.1"
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^24.5.0"
   },
   "devDependencies": {
     "watch": "^1.0.2"
