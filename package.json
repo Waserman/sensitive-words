@@ -1,0 +1,25 @@
+{
+  "name": "sensitive-words",
+  "version": "1.0.0",
+  "description": "Filter out a list of sensitive words",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Waserman/sensitive-words.git"
+  },
+  "keywords": [
+    "filter",
+    "filtering",
+    "sensitive",
+    "words"
+  ],
+  "author": "Avi Waserman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Waserman/sensitive-words/issues"
+  },
+  "homepage": "https://github.com/Waserman/sensitive-words#readme"
+}
