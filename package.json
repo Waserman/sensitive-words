@@ -4,7 +4,11 @@
   "description": "Filter out a list of sensitive words",
   "main": "build/index.js",
   "scripts": {
+    "build": "babel src -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": ["latest"]
   },
   "repository": {
     "type": "git",
@@ -21,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/Waserman/sensitive-words/issues"
   },
-  "homepage": "https://github.com/Waserman/sensitive-words#readme"
+  "homepage": "https://github.com/Waserman/sensitive-words#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
 }
