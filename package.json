@@ -1,5 +1,5 @@
 {
-  "name": "sensitive-words",
+  "name": "@waserman/sensitive-words",
   "version": "1.0.0",
   "description": "Filter out a list of sensitive words",
   "main": "build/index.js",
